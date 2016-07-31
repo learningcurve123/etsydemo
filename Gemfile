@@ -13,9 +13,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem "paperclip", "~> 5.0.0"
 
+#gem "paperclip", "~> 3.1"
+gem "paperclip", "~> 3.5.4"
 
+gem "paperclip-dropbox", ">= 1.1.7"
+
+gem "figaro"
 
 #gem "paperclip-dropbox", ">= 1.1.7"
 # Use jquery as the JavaScript library
